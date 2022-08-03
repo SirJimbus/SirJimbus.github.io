@@ -1,0 +1,81 @@
+#mainNav {
+  top: 0;
+  width: 100%;
+}
+
+.progetto {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nome {
+  margin-top: 100px;
+  margin-left: 160px;
+  font-size: 25px;
+}
+
+.heroText {
+  max-width: 71.875rem;
+  font-family: "Portrait web", Georgia, sans-serif;
+  font-size: 4rem;
+  line-height: 5.625rem;
+  letter-spacing: -0.09375rem;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.imgWrapper {
+  margin-left: auto;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+img {
+  height: 500px;
+  filter: grayscale(100%);
+}
+
+.hrStyle {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.intro {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+.info {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 3%;
+}
+
+#email {
+  pointer-events: none;
+}

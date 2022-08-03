@@ -1,0 +1,32 @@
+.main {
+  font-family: "Lato", sans-serif;
+  margin-top: 200px;
+  text-align: center;
+}
+
+button {
+  padding: 30px;
+  border-radius: 40%;
+  border: 3px solid black;
+  font-size: 30px;
+}
+
+#incrementButton {
+  background-color: green;
+  margin-right: 100px;
+}
+
+#decrementButton {
+  background-color: red;
+  margin-left: 100px;
+}
+
+#resetButton {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#counter {
+  font-size: 200px;
+}
