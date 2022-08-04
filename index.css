@@ -1,11 +1,6 @@
-#mainNav {
-  top: 0;
-  width: 100%;
-}
-
 .progetto {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .nome {
@@ -34,7 +29,7 @@
 
 img {
   height: 500px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .hrStyle {
