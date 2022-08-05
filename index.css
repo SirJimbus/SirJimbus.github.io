@@ -4,7 +4,7 @@
 }
 
 .nome {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 160px;
   font-size: 25px;
 }
@@ -23,18 +23,18 @@
 .imgWrapper {
   margin-left: auto;
   width: 62%;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 img {
   height: 500px;
-  /* filter: grayscale(100%); */
+  filter: grayscale(100%);
 }
 
 .hrStyle {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(
@@ -47,20 +47,20 @@ img {
 
 .intro {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   font-size: 3rem;
 }
 
 .info {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 200px;
   font-size: 30px;
 }
 
 .contact {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   font-size: 30px;
 }
 
