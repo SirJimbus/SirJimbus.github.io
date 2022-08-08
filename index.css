@@ -1,3 +1,7 @@
+body {
+  background-color: #689173;
+}
+
 .progetto {
   text-align: center;
   margin-top: 160px;
@@ -32,7 +36,7 @@ img {
   filter: grayscale(100%);
 }
 
-.hrStyle {
+#hrStyle {
   margin-top: 200px;
   margin-bottom: 200px;
   border: 0;
@@ -55,6 +59,23 @@ img {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 200px;
+  font-size: 30px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.containerSkillsOne {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 100px;
+  font-size: 30px;
+}
+
+.containerSkillsTwo {
+  display: inline-block;
+  vertical-align: middle;
   font-size: 30px;
 }
 
