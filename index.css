@@ -33,7 +33,7 @@ body {
 
 img {
   height: 500px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 #hrStyle {
