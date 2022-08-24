@@ -95,3 +95,10 @@ img {
 #email {
   pointer-events: none;
 }
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .progetto .imgWrapper .info .intro .skills {
+    width: 100%;
+  }
+}
