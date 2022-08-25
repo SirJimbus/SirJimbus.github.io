@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./drop/drop.css" />
-    <title>Federico Bertola</title>
+        <title>Federico Bertola</title>
   </head>
   <body style="background-color:#F6F4EB">
     <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
@@ -141,7 +141,7 @@
         </div>
         <hr>
         <p id="contactFormP">Se invece hai necessità di contattarmi, ti basterà compilare il semplicissimo form qui sotto!</p>
-        <form id="contactForm">
+        <form id="contact-form">
           <input type="hidden" name="contact_number">
           <label>Nome</label>
           <input type="text" name="user_name">
@@ -164,9 +164,25 @@
     <script src="./drop/drop.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-      (function() {
-          emailjs.init('SB01UE_BuX1Ilaz-n');
-      })();</script>
-    <script type="text/javacript" src="index.js"></script>
+        (function() {
+            emailjs.init("SB01UE_BuX1Ilaz-n");
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_xnod1rd', 'template_ox22dvd', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
   </body>
 </html>
