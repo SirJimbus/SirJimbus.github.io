@@ -92,6 +92,10 @@ img {
   padding: 3%;
 }
 
+.linksDiv {
+  margin-bottom: 100px;
+}
+
 #email {
   pointer-events: none;
 }
@@ -101,4 +105,13 @@ img {
   .progetto .imgWrapper .info .intro .skills {
     width: 100%;
   }
+}
+
+#contactFormP {
+  margin-top: 100px;
+}
+
+#contactForm {
+  margin-top: 100px;
+  align-items: center;
 }
