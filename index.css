@@ -113,5 +113,8 @@ img {
 
 #contact-form {
   margin-top: 100px;
-  align-items: center;
+}
+
+.inputForm {
+  padding: 2%;
 }
