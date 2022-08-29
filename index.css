@@ -9,7 +9,8 @@ body {
 
 .nome {
   margin-top: 200px;
-  margin-left: 160px;
+  margin-bottom: 50px;
+  margin-left: 430px;
   font-size: 25px;
 }
 
@@ -20,8 +21,7 @@ body {
   line-height: 5.625rem;
   letter-spacing: -0.09375rem;
   box-sizing: border-box;
-  margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 20%;
 }
 
 .imgWrapper {
