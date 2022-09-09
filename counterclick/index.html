@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./counterclick.css" />
+    <link rel="stylesheet" href="../drop/drop.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,8 +18,39 @@
     />
     <title>Click Counter</title>
   </head>
-  <header><script id="nav" src="../../nav/nav.js"></script></header>
+ 
   <body>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="https://SirJimbus.github.io"
+          target="_blank"
+          rel="noopener"
+          >Home</a
+        >
+        <div>
+          <a
+            class="navbar-brand"
+            href="https://github.com/SirJimbus"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </div>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Progetti</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="../clock/" target="_blank" rel="noopener">Clock</a>
+            <a href="../counterclick/" target="_blank" rel="noopener"
+              >Click counter</a
+            >
+            <a href="../stopwatch/" target="_blank" rel="noopener"
+              >Stopwatch</a
+            >
+          </div>
+      </div>
+    </nav>
     <h1>Clicka sui pulsanti per aumentare, diminuire e resettare il valore</h1>
     <div class="main">
       <button id="incrementButton">+1</button>
