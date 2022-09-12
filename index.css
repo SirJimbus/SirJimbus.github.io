@@ -10,7 +10,8 @@ body {
 .nome {
   margin-top: 200px;
   margin-bottom: 50px;
-  margin-left: 430px;
+  display: flex;
+  justify-content: center;
   font-size: 25px;
 }
 
@@ -25,8 +26,8 @@ body {
 }
 
 .imgWrapper {
-  margin-left: auto;
-  width: 62%;
+  display: flex;
+  justify-content: center;
   margin-top: 200px;
   margin-bottom: 100px;
 }
