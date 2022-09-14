@@ -3,51 +3,116 @@ body {
 }
 
 .progetto {
-  text-align: center;
-  margin-top: 160px;
+  font-size: 100px;
 }
 
 .nome {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
+  margin-left: 430px;
+  /* display: flex; */
+  justify-content: space-around;
   font-size: 25px;
 }
 
-.heroText {
-  max-width: 71.875rem;
-  font-family: "Portrait web", Georgia, sans-serif;
-  font-size: 4rem;
-  line-height: 5.625rem;
-  letter-spacing: -0.09375rem;
-  box-sizing: border-box;
-  margin-left: 20%;
+.aNome {
+  text-decoration: none;
+  color: black;
 }
 
-.imgWrapper {
+#topCiao {
+  margin: 150px 15%;
+}
+
+.columns-2 {
+  padding: 5%;
+  align-items: center;
   display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  background-color: #f6f4eb;
 }
 
-img {
+.column-1 {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+
+.w-col-6 {
+  width: 50%;
+}
+
+.w-col {
+  position: relative;
+  float: left;
+  min-height: 1px;
+}
+
+.headerCiao {
+  margin-bottom: 15%;
+  margin-left: -10px;
+  color: #332e2e;
+  text-align: left;
+}
+
+.ciao-h2 {
+  font-size: 140px;
+  line-height: 0.8em;
+  font-family: "Lexend Deca", sans-serif;
+  color: #332e2e;
+  font-weight: 900;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+}
+
+.ciao-sub {
+  padding-left: 10px;
+  font-size: 30px;
+  line-height: 1.7em;
+  margin-top: 10px;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+}
+
+.paragraph-2 {
+  font-size: 30px;
+  line-height: 1.7em;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #332e2e;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+}
+
+.column-2 {
+  padding-right: 0;
+  padding-left: 10%;
+}
+
+.image-1 {
+  width: 500px;
   height: 500px;
-  /* filter: grayscale(100%); */
+  margin-left: 0;
+  background-color: transparent;
+  display: block;
+  padding: 0%;
+  border: 3px solid black;
+  border-radius: 1000px;
 }
 
 #hrStyle {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 3px;
+  color: rgb(0, 0, 0);
 }
 
 .intro {
@@ -103,7 +168,7 @@ img {
 
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  .progetto .imgWrapper .info .intro .skills {
+  .progetto .image-1 .info .intro .skills {
     width: 100%;
   }
 }
@@ -114,6 +179,8 @@ img {
 
 #contact-form {
   margin-top: 100px;
+  display: grid;
+  gap: 2rem;
 }
 
 .inputName {
