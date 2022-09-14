@@ -187,7 +187,9 @@
                         console.log('SUCCESS!');
                     }, function(error) {
                         console.log('FAILED...', error);
-                    });
+                    }).then(function(){
+                      window.location.href = "../congrats/congrats.html"
+                    })
             })
         }
     </script>
