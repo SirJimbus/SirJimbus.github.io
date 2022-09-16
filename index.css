@@ -282,12 +282,6 @@ body {
   pointer-events: none;
 }
 
-/* @media only screen and (max-width: 500px) {
-  .progetto .image-1 .info .intro .skills {
-    width: 100%;
-  }
-} */
-
 #contactFormP {
   margin-top: 100px;
 }
