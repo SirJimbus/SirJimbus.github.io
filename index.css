@@ -25,7 +25,7 @@ body {
 }
 
 #topCiao {
-  margin: 150px 15%;
+  margin: 50px 15%;
 }
 
 .columns-2 {
@@ -68,18 +68,23 @@ body {
   margin-bottom: 0;
   letter-spacing: 3px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ciao-sub {
   padding-left: 10px;
   font-size: 30px;
   line-height: 1.7em;
-  margin-top: 10px;
-  text-align: left;
+  margin-top: 20px;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paragraph-2 {
