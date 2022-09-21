@@ -9,15 +9,19 @@ body {
 .nome {
   margin-top: 100px;
   margin-bottom: 50px;
-  margin-left: 430px;
-  /* display: flex; */
-  justify-content: space-around;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aNome {
   text-decoration: none;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 #topCiao {
@@ -194,6 +198,7 @@ body {
   text-align: left;
   cursor: auto;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .p1 {
@@ -259,6 +264,7 @@ body {
   border: 2px solid #000;
   background-color: #fff0d3;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .contact {
