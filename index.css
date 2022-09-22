@@ -126,76 +126,40 @@ body {
   font-size: 30px;
 }
 
-.skills {
-  margin-bottom: 0;
-  padding-bottom: 100px;
-  height: auto;
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
+.main-container {
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-content: flex-start;
 }
 
-.skills-column {
-  height: auto;
-  box-sizing: border-box;
-}
-
-.green {
-  position: static;
-  left: 50px;
-  right: 0;
-  display: block;
-  height: auto;
-  padding-right: 2%;
-  padding-left: 0;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 1;
-  flex: 1;
-  border: 1px #000;
-  box-sizing: border-box;
-}
-
-.w-col-6 {
-  width: 50%;
-  box-sizing: border-box;
-}
-
-.w-col {
-  float: left;
-  min-height: 1px;
-  box-sizing: border-box;
-}
-
-.green-content {
-  height: auto;
-  margin-left: 300px;
-  padding: 50px 70px 70px;
-  border-radius: 50px;
-  display: block;
-  margin-top: 0;
-  margin-right: auto;
-  float: none;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  border: 2px solid #000;
+.right-container {
+  top: 0;
+  min-width: 10%;
   background-color: #d8ffb6;
-  text-align: left;
-  cursor: auto;
-  box-sizing: border-box;
-  overflow: hidden;
+  border: 4px solid black;
+  border-radius: 50px;
+  padding: 50px;
+  height: 100%;
+  overflow-wrap: break-word;
 }
 
-.p1 {
+.left-container {
+  top: 0;
+  min-width: 10%;
+  background-color: #fff0d3;
+  border: 4px solid black;
+  border-radius: 50px;
+  padding: 50px;
+  height: 100%;
+  overflow-wrap: break-word;
+}
+
+.titleContainer {
   font-size: 59px;
   line-height: 80px;
   font-family: "Lexend Deca", sans-serif;
@@ -213,7 +177,7 @@ body {
   box-sizing: border-box;
 }
 
-.rich-text-block {
+.pSkills {
   margin-top: 20px;
   font-size: 20px;
   line-height: 1.7em;
@@ -230,35 +194,6 @@ body {
   text-decoration: none;
   text-transform: none;
   box-sizing: border-box;
-}
-
-.orange {
-  position: static;
-  left: 20px;
-  height: auto;
-  padding-right: 0;
-  padding-left: 2%;
-  -webkit-box-flex: 1;
-  flex: 1;
-  border: 1px #000;
-  border-radius: 0;
-  box-sizing: border-box;
-}
-
-.orange-content {
-  height: auto;
-  margin-right: 300px;
-  padding: 50px 70px 70px;
-  border-radius: 50px;
-  display: block;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  border: 2px solid #000;
-  background-color: #fff0d3;
-  box-sizing: border-box;
-  overflow: hidden;
 }
 
 .contact {
