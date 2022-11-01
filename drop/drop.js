@@ -16,3 +16,21 @@ window.onclick = function (event) {
     }
   }
 };
+
+function secondFunction() {
+  document.getElementById("secondDropdown").classList.toggle("show");
+}
+
+// Chiudi dropdown se l'utente clicka in qualsiasi altro punto della finestra
+window.onclick = function (event) {
+  if (!event.target.matches(".second-dropbtn")) {
+    let dropdowns = document.getElementsByClassName("second-dropdown-content");
+    let i;
+    for (i = 0; i < dropdowns.length; i++) {
+      let openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};
